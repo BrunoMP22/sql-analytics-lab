@@ -1,0 +1,7 @@
+SELECT
+
+COUNT(DISTINCT(eps.title))  as 'CONTAGEM_NUM_TITULOS'
+
+FROM episodes eps
+WHERE 1=1
+
